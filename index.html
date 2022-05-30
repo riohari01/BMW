@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon"  src="bmw-logo-1997-1200x1200.png">
+    <link rel="stylesheet" href="https://codepen.io/Lastly/pen/wvwGXme">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/css/uikit.min.css" />
+    <!-- <link rel="stylesheet" href="rumm1.css" /> -->
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="style2.css" />
+
+    <title>BMW</title>
+  
+</head>
+<body>
+   
+    <!-- navbar -->
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky "class="navbar uk-visible@m">
+        <nav class="uk-navbar-container  navigation" uk-navbar>
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <li><a href="#"><img src="images/bmw-logo-1997-1200x1200.png" width="80px"></a></li>
+                </ul>
+            </div>
+            <div class="uk-navbar-center">
+                <ul class="uk-navbar-nav">
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#spec">specification</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#machine">pricing</a></li>
+                    <li><a href="#360view">360 View</a></li>
+                    <li><a href="#form">Enquiry form</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- dropdown -->
+    <div  uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky" class="navbar uk-hidden@m">
+        <div class="uk-inline navigation">
+            <button class="uk-button drop-btn border-none" type="button"><a href="#"><img class="spin" src="images/bmw-logo-1997-1200x1200.png" width="60px"></a></button>
+            <div uk-dropdown="mode: click">
+                    <ul class="uk-nav uk-navbar-dropdown-nav drop ">
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#spec">specification</a></li>
+                        <li><a href="#video">Video</a></li>
+                        <li><a href="#machine">pricing</a></li>
+                        <li><a href="#360view">360 View</a></li>
+                        <li><a href="#form">Enquiry form</a></li>
+                    </ul>
+            </div>
+        </div>
+        <!-- <nav class="uk-navbar-container  navigation" uk-navbar>
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <li><a href="#"><img class="spin" src="bmw-logo-1997-1200x1200.png" width="80px">
+                        <div class="uk-navbar-dropdown drop">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">specification</a></li>
+                                <li><a href="#">Video</a></li>
+                                <li><a href="#">Product Drawing</a></li>
+                                <li><a href="#">360 View</a></li>
+                                <li><a href="#">Enquiry form</a></li>
+                            </ul>
+                        </div>
+                        </a>    
+                    </li>
+                </ul>
+            </div>
+        </nav> -->
+    </div>
+    <!-- main-image -->
+    <div class="overlay">
+        <div class="height-img uk-flex uk-flex-center uk-position-relative uk-flex-middle uk-background-cover uk-light uk-text-center" data-src="images/pexels-den-pilsh-8022367.jpg" uk-img>
+            <div>
+                <h1 class="uk-margin-remove">PROPERTY WEBSITE</h1>
+                <p class="uk-margin-remove">653 NW MACLEAY PROPERTY portland blvd  OR 9725</p>
+            </div>  
+          </div>
+          <div class="uk-animation-toggle" tabindex="0">
+            <div class="uk-animation-shake uk-animation-reverse">
+                <div class="uk-text-center uk-position-absolute position-rel ">
+                    <a  href="#bottom" uk-scroll><img src="images/computer-mouse.png" width="50px"></a>
+                  </div>
+            </div>
+        </div>
+         
+    </div>
+   <div id="bottom"></div>
+   <div class="uk-container uk-margin-top">
+    <div class="uk-grid-collapse uk-child-width-1-2@m uk-margin " uk-grid>
+        <div class="uk-flex-last uk-card-media-right uk-cover-container">
+            <img src="images/bmw3.jpg"  alt="" uk-cover>
+            <canvas width="400" height="500"></canvas>
+        </div>
+        <div>
+            <div class="uk-card-body">
+                <h1 class="uk-card-title">653 NW MACHLEAY</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ullam earum qui unde minus saepe aut recusandae distinctio autem tempore.lore Lorem,
+                    ipsum dolor sit amet consectetur adipisicing elit. Enim autem saepe ducimus error beatae ad voluptatum ipsa porro impedit. Numquam!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, consequuntur. Unde deleniti nisi, at corporis ea saepe suscipit nostrum quaerat quas? Iste omnis dicta rerum!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ullam earum qui unde minus saepe aut recusandae distinctio autem tempore.lore Lorem,
+                    ipsum dolor sit amet consectetur adipisicing elit. Enim autem saepe ducimus error beatae ad voluptatum ipsa porro impedit. Numquam!
+                    Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ullam earum qui unde minus saepe aut recusandae distinctio autem tempore.lore Lorem,
+                    ipsum dolor sit amet consectetur adipisicing elit. Enim autem saepe ducimus error beatae ad voluptatum ipsa porro impedit. Numquam!
+                    Lorem ipsum dolor                         
+                </p>
+                <p><a href="#">view product</a></p>
+            </div>
+        </div>
+    </div>
+   </div>
+  
+    <!-- <div class="uk-container uk-container-large uk-margin-top " >
+            <div class="uk-card  uk-grid-collapse uk-child-width-1-2@m  uk-margin" uk-grid>
+                <div class="uk-flex-last uk-card-media-right">
+                    <img class="sub-img" src="machine.png" alt="" uk-cover>
+                </div>
+                <div >
+                    <div class="uk-card-body">
+                        <div>
+                            <h1 class="uk-card-title">653 NW MACHLEAY</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ullam earum qui unde minus saepe aut recusandae distinctio autem tempore.lore Lorem,
+                                ipsum dolor sit amet consectetur adipisicing elit. Enim autem saepe ducimus error beatae ad voluptatum ipsa porro impedit. Numquam!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, consequuntur. Unde deleniti nisi, at corporis ea saepe suscipit nostrum quaerat quas? Iste omnis dicta rerum!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ullam earum qui unde minus saepe aut recusandae distinctio autem tempore.lore Lorem,
+                                ipsum dolor sit amet consectetur adipisicing elit. Enim autem saepe ducimus error beatae ad voluptatum ipsa porro impedit. Numquam!
+                                Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ullam earum qui unde minus saepe aut recusandae distinctio autem tempore.lore Lorem,
+                                ipsum dolor sit amet consectetur adipisicing elit. Enim autem saepe ducimus error beatae ad voluptatum ipsa porro impedit. Numquam!
+                                Lorem ipsum dolor                         
+                                </p>
+                                <p><a href="#">view product</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div> -->
+    <div  id="gallery"></div>
+    <div class="color-grey uk-container uk-margin-top">
+        <div class="uk-text-center">
+            <div class="uk-padding">
+                <h1>Gallery</h1>
+                <p>Here you can see a sample of our latest bike.</p>
+            </div>
+        </div>
+        <div class="uk-container">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+                <div class="slide-arrow uk-margin-bottom">
+                    <a class="uk-text-right slide-arrow " href="#"  uk-slideshow-item="previous"><img class="rotate" src="images/fast-forward.png" width="30px"></a>
+                    <a class="uk-text-right slide-arrow" href="#" uk-slideshow-item="next"><img src="images/fast-forward.png" width="30px"> </a>
+
+                </div>
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="images/bmw1.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="images/bmw2.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="images/bmw3.jpg" alt="" uk-cover>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="video"></div>
+        <div class="uk-text-center uk-margin-large-top " >
+            <h1>Video</h1>
+            <p>Here you can see a sample of our latest bike.</p>
+        </div>
+        <div class="uk-container uk-margin-large-top">
+            
+            <iframe class="video-size" src="https://www.youtube.com/embed/zYyL8NAJ-ZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="uk-margin-large-top uk-container ">
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                    <img src="images/bmw 5.jpg" alt="" uk-cover>
+                    <canvas width="600" height="400"></canvas>
+                </div>
+                <div>
+                    <div class="uk-card-body uk-text-center">
+                        <h2 class="uk-card-title">FOR BIKERS</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <div class="uk-position-relative">
+                            <div id="container">
+                            <div id="circle">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+                                <defs>
+                                    <path id="circlePath" d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "/>
+                                </defs>
+                                <circle cx="150" cy="100" r="75" fill="none"/>
+                                <g>
+                                    <use xlink:href="#circlePath" fill="none"/>
+                                    <text fill="#000">
+                                        <textPath xlink:href="#circlePath">Here you can see a sample of our latest bike.</textPath>
+                                    </text>
+                                </g>
+                            </svg>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="uk-position-absolute inside-img uk-visible@l">
+                            <img src="images/fast-forward.png" width="80px">
+
+                        </div>
+                    </div>
+                    <!-- <div id="container">
+                        <div id="circle">
+                          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px" height="200px" viewBox="0 0 400 400" enable-background="new 0 0 100 100" xml:space="preserve">
+                            <defs>
+                              <path id="circlePath" d=" M 200, 200 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "/>
+                            </defs>
+                            <g>
+                              <use xlink:href="#circlePath" fill="none"/>
+                              <rect
+                                x="160" 
+                                y="160"
+                                width="80" 
+                                height="80"
+                                fill="#FCDB8D"
+                              />
+                              <text fill="#ffb605">
+                                <textPath xlink:href="#circlePath">Here you can see a sample of our latest bike. </textPath>
+                              </text>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+            </div> -->
+        </div>
+    </div>
+    <div  id="360view"></div>
+    <hr class="hr uk-margin-large-top">
+    
+    <div>
+        <div class="uk-text-center uk-margin-large-top ">
+            <h1  class="uk-card-title">360°</h1>
+            <p>Here you can see a sample of our latest bike.</p>
+        </div>
+        <div>
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="sets: true">
+               
+                <div class="slide-arrow uk-margin-bottom">
+                    <a class="uk-text-right slide-arrow "href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-text-right slide-arrow " href="#" uk-slidenav-next uk-slider-item="next"></a>
+                </div>
+
+                <ul class="uk-slider-items uk-child-width-1-3 uk-child-width-1-2@m">
+                    <li>
+                        <img src="images/bmw6.jpg" width="600" height="600" alt="">
+                    </li>
+                    <li>
+                        <img src="images/bmw3.jpg" width="600" height="600" alt="">
+                    </li>
+                    <li>
+                        <img src="images/bmw8.jpg" width="600" height="600" alt="">
+                    </li>
+                    <li>
+                        <img src="images/bmw2.jpg" width="600" height="600" alt="">
+                    </li>
+                    <li>
+                        <img src="images/bmw7.jpg" width="600" height="600" alt="">
+                   
+                </ul>
+            
+              
+            
+            </div>
+        </div>
+
+    </div>
+    <hr class="hr  uk-margin-large-top">
+    <div>
+        <div>
+            <div class="uk-slider-container-offset" uk-slider>
+
+                <div class="uk-position-relative uk-text-center uk-visible-toggle uk-light" tabindex="-1">
+                    <div class="slide-arrow uk-margin-bottom">
+                        <a class="uk-text-right slide-arrow "href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-text-right slide-arrow " href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+            
+                    <ul class="uk-slider-items uk-child-width-1-1@s uk-grid uk-text-center">
+                        <li>
+                            <div class=" color-text uk-text-center">
+                                
+                                <div class="uk-card-body ">                                   
+                                    <q>Don’t let my motorcycle ride interfere with <br>the safety of your phone call.
+                                        It’s your road others <br> can ride it with you but no one can ride it for you.</q>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class=" color-text uk-text-center">
+                               
+                                <div class="uk-card-body">                                    
+                                    <q> A bad day on a mountain bike always beats a good day in the office.<br>
+                                        If you want to be happy for a day, if you want to be happy for a year, Marry.<br> If you want to be happy for a lifetime, Ride a Bike.
+                                        Biker heaven, Free road, Full tank, Full throttle.</q>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="color-text">
+                              
+                                <div class="uk-card-body">                                   
+                                    <q>Don’t let my motorcycle ride interfere with the safety of your phone call.<br>
+                                        It’s your road others can ride it<br> with you but no one can ride it for you.</q>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="color-text">
+                               
+                                <div class="uk-card-body">                                    
+                                    <q>I don’t need therapy, I just need to ride my fat bike.<br>
+                                       We need to go on an adventure road trip.<br>
+                                        No other place is better than behind the bars.</q>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="color-text ">
+                               
+                                <div class="uk-card-body">                                   
+                                    <q>Some call it an adventure, We call it life.<br>
+                                        You don’t stop when you get old, You get old when you stop riding.</q>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>          
+                              
+                </div>
+            
+                <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+            
+            </div>
+
+            
+        </div>
+    </div>
+    <div id="machine"></div>
+    <div class="color-grey">
+        
+        <div>
+            <div class="uk-text-center">
+                <div class="uk-padding">
+                    <h1  class="uk-card-title">UP SELL BIKES</h1>
+                    <p>Here you can see a sample of our latest bike.</p>
+                </div>
+
+            </div>
+            <div class="uk-position-relative uk-visible-toggle uk-light uk-padding" tabindex="-1" uk-slider>
+                <div class="slide-arrow uk-margin-bottom uk-position-relative">
+                    <a class="uk-text-right slide-arrow " href="#"  uk-slideshow-item="previous"><img class="rotate" src="images/fast-forward.png" width="30px"></a>
+                    <a class="uk-text-right slide-arrow" href="#" uk-slideshow-item="next"><img src="images/fast-forward.png" width="30px"> </a>
+
+                </div>
+
+                <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s  uk-grid">
+                    <li>
+                        <div class="uk-panel">
+                            <img src="images/SER1.jpg" width="400" height="600" alt="">
+                            
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-panel">
+                            <img src="images/SER4.jpg" width="400" height="400" alt="">
+                            
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-panel">
+                            <img src="images/SER3.jpg" width="400" height="600" alt="">
+                            
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-panel">
+                            <img src="images/SER4.jpg" width="400" height="400" alt="">
+                            
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-panel">
+                            <img src="images/SER3.jpg" width="400" height="600" alt="">
+                            
+                        </div>
+                    </li>
+                   
+                </ul>
+            
+            </div>
+
+        </div>
+       
+
+       
+    </div>
+    <div  id="spec"></div>
+    <div class="uk-margin-large-top"  > 
+        <div class=" uk-grid-collapse uk-child-width-1-2@m uk-margin" uk-grid>
+            <div class="uk-flex-last@m uk-card-media-right uk-text-center uk-cover-container">
+                <img class="img-width" src="images/SPEC2.jpg" alt="" uk-cover>
+                <canvas width="600" height="400"></canvas>
+            </div>
+            <div>
+                <div class="uk-card-body uk-text-center">
+                        <h1>SPECIFICATION </h1>
+                        <p>Biking is not just a passion, it is a lifestyle. No other joy on the planet can compare the joy of hitting the long winding highways on the bike. Such happiness can’t be put in words, however, we’ve tried to capture its essence in these quotes so here are the some of the best biker quotes and sayings that any biker or motorcyclist can live by.</p>                   
+                </div>
+                <div class="uk-text-center" uk-grid>
+                    <div class="uk-width-1-2@s">
+                        <div>
+                            <button class="uk-button uk-button-default uk-button-small">view all</button>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-2@s">
+                        <div>
+                            <button class="uk-button uk-button-default uk-button-small">Download broucher</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-margin-large-top"> 
+        <div class="color-grey" id="form">
+            <div>
+                <div class="uk-text-left padding-full" uk-grid>
+                    <div class="uk-width-1-2@m">
+                    <div class="padding-form">
+                        <h3>SCHEDULE A VISIT</h3>
+                        <P>Biking is not just a passion, it is a lifestyle. No other joy on the planet can compare the joy of hitting the long winding highways on the bike.</P>
+                        <h4 class="uk-margin-remove-top">productivity gain</h4>
+                        <hr class="hr ">
+                        <h4 class="uk-margin-remove-top">whatsapp messaging features</h4>
+                        <hr class="hr">
+                        <button class="uk-button uk-button-secondary uk-button-small uk-margin-top">CUSTOMER SERVICE</button>
+                    </div>
+                    </div>
+                    <div class="uk-width-1-2@m">
+                        <form>
+                            <fieldset class="uk-fieldset">
+                                <legend class="uk-legend">GET IN TOUCH</legend>
+                                
+                                <div class="uk-margin">
+                                    <input class="uk-input" type="text" placeholder="NAME">
+                                </div>
+                                <div class="uk-margin">
+                                    <input class="uk-input" type="text" placeholder="E-MAIL">
+                                </div>
+                                <div class="uk-margin">
+                                    <textarea class="uk-textarea" rows="5" placeholder="MESSAGE"></textarea>
+                                </div> 
+                                <div>
+                                    <button class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom ">SEND</button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-margin-large-top">
+                <div class="uk-width-1-1@m uk-text-center leight">
+                    <ul class="uk-list inline-flex">
+                        <li class="uk-margin-small-top"><a href="facebook.com" uk-icon="icon: facebook"></a></li>
+                        <li><a href="instagram.com" uk-icon="icon: instagram"></a></li>
+                        <li><a href="twitter.com" uk-icon="icon: twitter"></a></li>
+                        <li><a href="youtube.com" uk-icon="icon: youtube"></a></li>
+                        <li><a href="linkedin.com" uk-icon="icon: linkedin"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="position-fixed">
+            <a href="#"><img class="rotate1" src="images/fast-forward.png" width="20px"></a>
+            
+        </div>
+        <div class="position-fixed1">
+            <a href="#down"><img class="rotate2" src="images/fast-forward.png" width="20px"></a>
+            
+        </div>
+    </div>
+    <div id="down"></div>
+   
+
+
+
+    
+    
+
+   
+</body>
+</html>
+    
